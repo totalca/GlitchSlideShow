@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+      meta(charset='utf-8')
+      title London Slideshow
+      script(src='/js/il.js')
+    body(class='demo-2 loading')
+      main
+        div(class='content content--fixed')
+          header(class='codrops-header')
+            div(class='codrops-links')
+               a(class='codrops-icon codrops-icon--prev' href='/' title='Previous Demo')
+                 svg.icon(class='icon icon--arrow')
+                   use(xlink:href='#icon-drop')
+               a(class='codrops-icon codrops-icon--drop' href='/' title='Back to the article')
+                 svg.icon(class='icon icon--drop')
+                   use(xlink:href='#icon-drop')
+            h1(class='codrops-header__title') London Slideshow
+        div(class='content')
+          div(class='slides slides--contained effect-2')
+            div(class='slide slide--current')
+              div(class='slide__img glitch' style='background-image: url(img/1.jpg);')
+              div(class='slide__text')
+                h2(class='slide__title') Broken Glow
