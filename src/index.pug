@@ -2,52 +2,47 @@ doctype html
 html(class='no-js' lang='en')
     head
       title London Glitch Slideshow
-      meta(name='viewport' content='width=device-width, initial-scale=1')
       meta(charset='utf-8')
+      meta(name='viewport' content='width=device-width, initial-scale=1')
+      meta(name='description' content='A slideshow with a CSS glitch effect for transitioning between slides')
+      meta(name='keywords' content='slideshow, glitch, effect, css, web developer')
       block styles
-        link(rel='stylesheet', href='https://tympanus.net/Development/GlitchSlideshow/css/base.css')
-        link(rel='stylesheet', href='https://tympanus.net/Development/GlitchSlideshow/css/glitch-slideshow.css')
-        //include style2.scss
+        link(rel='stylesheet', href='https://totalca.github.io/VirtualHost/base.css')
+        link(rel='stylesheet', href='https://totalca.github.io/VirtualHost/glitch-slideshow.css')
       script(src='asset/js/il.js')
     body(class='demo-2 loading')
       main
         div(class='content content--fixed')
           header(class='codrops-header')
-            div(class='codrops-links')
-               a(class='codrops-icon codrops-icon--prev' href='/' title='Previous Demo')
-                 svg.icon(class='icon--arrow')
-                   use(xlink:href='#icon-drop')
-               a(class='codrops-icon codrops-icon--drop' href='/' title='Back to the article')
-                 svg.icon(class='icon--drop')
-                   use(xlink:href='#icon-drop')
             h1(class='codrops-header__title') London Glitch Slideshow
+          p(class='info') Find more projects on #[a(href="https://github.com/totalca/") Github]
         div(class='content')
           div(class='slides slides--contained effect-2')
             div(class='slide slide--current')
               .slide__img.glitch(style='background-image: url(asset/image/1.jpg);')
               div(class='slide__text')
-                h2(class='slide__title') Broken Glow
-                p(class='slide__description') Using the #[a(href="#") CSS Glitch Effect] to transition between images of a slideshow.
+                h2(class='slide__title') Big Ben
+                p(class='slide__description') Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London.
             div(class='slide')
               .slide__img.glitch(style='background-image: url(asset/image/2.jpg);')
               div(class='slide__text')
-                h2(class='slide__title') Morning Dew
-                p(class='slide__description') You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.
+                h2(class='slide__title') Tower Bridge
+                p(class='slide__description') Tower Bridge is a combined bascule and suspension bridge in London built between 1886 and 1894..
             div(class='slide')
               .slide__img.glitch(style='background-image: url(asset/image/3.jpg);')
               div(class='slide__text')
-                h2(class='slide__title') Crystal Way
-                p(class='slide__description') I just the took to calling it the Bat. And yes Mr. Wayne, it does come in black.
+                h2(class='slide__title') London Night
+                p(class='slide__description') Discover the best of late #[a(href="https://www.visitlondon.com/things-to-do/nightlife/101-things-to-do-at-night-in-london") Night London], from the thriving London nightlife club and bar scene, to tours and attractions to enjoy in London at night.
             div(class='slide')
               .slide__img.glitch(style='background-image: url(asset/image/4.jpg);')
               div(class='slide__text')
-                h2(class='slide__title') Fine Quest
-                p(class='slide__description') You have nothing, nothing to threaten me with. Nothing to do with all your strength.
+                h2(class='slide__title') Regent Street
+                p(class='slide__description') Regent Street is a major shopping street in the West End of London.
             div(class='slide')
               .slide__img.glitch(style='background-image: url(asset/image/5.jpg);')
               div(class='slide__text')
-                h2(class='slide__title') Dome Being
-                p(class='slide__description') I'll be standing where l belong. Between you and the people of Gotham.
+                h2(class='slide__title') Neighbourhood
+                p(class='slide__description') Kensington is a district within the Royal Borough of Kensington and Chelsea in West London.
           nav(class='slide-nav' ) 
             - var btnType = 'info'
             - var btnSize = 'lg'
@@ -56,7 +51,7 @@ html(class='no-js' lang='en')
                   |
                   button(class='slide-nav__button')
                     span Next
-      script(src='https://tympanus.net/Development/GlitchSlideshow/js/imagesloaded.pkgd.min.js')
-      script(src='https://tympanus.net/Development/GlitchSlideshow/js/demo.js')
-      script(src='https://tympanus.net/Development/GlitchSlideshow/js/demo2.js')
+      script(src='https://totalca.github.io/VirtualHost/imagesloaded.pkgd.min.js')
+      script(src='https://totalca.github.io/VirtualHost/demo.js')
+      script(src='https://totalca.github.io/VirtualHost/demo2.js')
 
