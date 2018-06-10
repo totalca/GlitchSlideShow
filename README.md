@@ -5,17 +5,6 @@ Starter package for pug (former jade) template based projects.
 ***Note***: an boolean option **config.render.sourceFileChange** has been added to the *package.json*. The behaviour differs based on the value:
 1. **true** - it renders if the source file (pug file) has been changed; This has a much much greater speed when rendering compared to the other option however it's only relevant if you make change to the current file watched by PUG. If you make a change to a file that's extended and resides in a path that contains "_", like a layout one, the change won't be reflected.
 2. **false** - it renders if any pug file has been changed and compares the output with the destination file (the HTML generated now with the previous generated HTML). This can be slower when the number of files increases.
-## Live projects built with ***pug-starter***
-If you want your project to be listed here leave a message on [CodeTap on FaceBook](https://facebook.com/codetap). You're project needs to be at least version one final (no beta / alpha or work in progress) will be accepted.
-* Author: [Marian Zburlea](https://github.com/marianzburlea)
-  + [Eat the Veggie (live)](http://codetapio.github.io/eat-the-veggie) - [Eat the Veggie (source)](https://github.com/codetapio/eat-the-veggie)
-  + [W3schools Replica (live)](http://codetapio.github.io/w3schools-replica) - [W3schools Replica (source)](https://github.com/codetapio/w3schools-replica)
-  + [My Resume (live)](http://my-resume.bitbee.uk) - [My Resume (source)](https://github.com/marianzburlea/my-resume)
-  + [Quick Blog (live)](http://quick-blog.bitbee.uk) - [Quick Blog (source)](https://github.com/marianzburlea/quick-blog)
-  + [Tesla Saves Lives (live)](http://tesla.bitbee.uk) - [Tesla Saves Lives (source)](https://github.com/marianzburlea/tesla-saves-lives)
-* Author: [Istvan Acs](https://github.com/St3ve89)
-  + [Acme mobile first (live)](http://St3ve89.github.io/Acme-mobile-first) - [Acme mobile first (source)](https://github.com/St3ve89/Acme-mobile-first)
-  + [Thumb Gallery (live)](http://St3ve89.github.io/thumbgallery) - [Thumb Gallery (source)](https://github.com/St3ve89/thumbgallery)
 ## Prerequisites
 The project requires NodeJS v.4+ and gulp v4+
 
